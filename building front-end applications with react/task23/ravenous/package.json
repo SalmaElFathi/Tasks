@@ -9,7 +9,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "whatwg-fetch": "^3.6.20"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,7 +39,8 @@
   "devDependencies": {
     "@babel/cli": "^7.24.1",
     "@babel/core": "^7.24.4",
+    "@babel/plugin-proposal-private-property-in-object": "^7.18.0",
     "@babel/preset-react": "^7.24.1",
-    "@babel/plugin-proposal-private-property-in-object": "^7.18.0"
+    "serve": "^14.2.1"
   }
 }
